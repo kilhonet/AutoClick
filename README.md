@@ -142,15 +142,6 @@ There is no separate settings window. Hotkeys, **Position** and **Use notice** a
 
 AutoClick does **not** update itself. When it starts, it checks for a new version and shows a notice; clicking **[Yes]** opens the download page and closes the program. New versions are released manually after internal verification and announced on the [AutoClick page](https://kilho.net/autoclick). See the [update policy notice](https://en.kilho.net/archives/notice/2940).
 
-**Version history**
-
-| Version | Date | Changes |
-|---|---|---|
-| 2.0.0 | 2026-10-02 | Rebuilt in Rust for greater reliability, new Use notice option for start, stop and repeat-finished notices, starting it again brings the open window to the front, improved hotkey input and record list display, dark mode support |
-| 1.5.5 | 2026-09-16 | Fixed shorter wait times affecting some older saved records, fixed custom click interval ranges being reset, notice when another program uses the same hotkey, faster response with less waiting after double clicks, prevented continuous clicking from an invalid repeat count |
-| 1.5.4 | 2026-08-13 | Improved click accuracy with certain recorded coordinates, prevented unexpected behavior from invalid record data, record files unified as `.lst`, improved record list display on high-resolution and scaled displays |
-| 1.5.3 | 2026-07-11 | Improved stability with invalid delay values, excessive delays kept within a safe range, more reliable delay settings, Spanish added |
-
 ## License
 
 AutoClick is **freeware**. Use it free of charge and without restriction anywhere — at work, at home, in government offices or at school — and redistribute it freely.

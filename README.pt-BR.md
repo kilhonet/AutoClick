@@ -144,15 +144,6 @@ Não há uma janela de configurações separada. Os atalhos, **Position** e **Us
 
 O AutoClick **não** se atualiza sozinho. Ao iniciar, ele verifica se há uma nova versão e mostra um aviso; clicar em **[Sim]** abre a página de download e fecha o programa. Novas versões são lançadas manualmente após verificação interna e anunciadas na [página do AutoClick](https://kilho.net/autoclick). Consulte o [aviso sobre a política de atualizações](https://en.kilho.net/archives/notice/2940).
 
-**Histórico de versões**
-
-| Versão | Data | Mudanças |
-|---|---|---|
-| 2.0.0 | 2026-10-02 | Refeito em Rust para mais confiabilidade, nova opção Use notice para avisar início, parada e repetições concluídas, abrir de novo traz a janela aberta para a frente, entrada de atalhos e exibição da lista melhoradas, suporte a modo escuro |
-| 1.5.5 | 2026-09-16 | Corrigidos tempos de espera longos aplicados mais curtos em alguns registros antigos, corrigidas faixas de intervalo personalizadas que mudavam, aviso quando outro programa usa o mesmo atalho, resposta mais rápida com menos espera após clique duplo, evitados cliques contínuos por número de repetições inválido |
-| 1.5.4 | 2026-08-13 | Mais precisão em certas coordenadas gravadas, evitado comportamento inesperado com dados de registro inválidos, arquivos de registro unificados no formato `.lst`, melhor exibição da lista em telas de alta resolução e com escala |
-| 1.5.3 | 2026-07-11 | Mais estabilidade com valores de delay inválidos, delays excessivos mantidos em uma faixa segura, ajuste de delay mais confiável, espanhol adicionado |
-
 ## Licença
 
 O AutoClick é **freeware**. Use de graça e sem restrições em qualquer lugar — no trabalho, em casa, em órgãos públicos ou na escola — e redistribua livremente.

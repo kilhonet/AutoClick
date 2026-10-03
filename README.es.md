@@ -142,15 +142,6 @@ No hay una ventana de configuración aparte. Las teclas de acceso rápido, **Pos
 
 AutoClick **no** se actualiza solo. Al iniciarse comprueba si hay una versión nueva y muestra un aviso; si pulsa **[Sí]**, abre la página de descarga y cierra el programa. Las versiones nuevas se publican manualmente tras una verificación interna y se anuncian en la [página de AutoClick](https://kilho.net/autoclick). Consulte el [aviso sobre la política de actualizaciones](https://en.kilho.net/archives/notice/2940).
 
-**Historial de versiones**
-
-| Versión | Fecha | Cambios |
-|---|---|---|
-| 2.0.0 | 2026-10-02 | Rehecho en Rust para mayor fiabilidad, nueva opción Usar avisos para avisar del inicio, la parada y las repeticiones completadas, al abrirlo otra vez trae al frente la ventana abierta, mejoras en la entrada de teclas y en la lista de registro, compatibilidad con modo oscuro |
-| 1.5.5 | 2026-09-16 | Corregidos tiempos de espera largos que se aplicaban más cortos en algunos registros antiguos, corregido el cambio de rangos de intervalo fijados por el usuario, aviso cuando otro programa usa la misma tecla, respuesta más rápida con menos espera tras un doble clic, evitados clics continuos por un número de repeticiones no válido |
-| 1.5.4 | 2026-08-13 | Más precisión al pulsar ciertas coordenadas grabadas, evitado el mal funcionamiento por datos de registro no válidos, archivos de registro unificados en `.lst`, mejor visualización de la lista en pantallas de alta resolución y con escalado |
-| 1.5.3 | 2026-07-11 | Más estabilidad con valores de retraso no válidos, retrasos excesivos limitados a un rango seguro, ajustes de retraso más fiables, español añadido |
-
 ## Licencia
 
 AutoClick es **freeware**. Úselo gratis y sin restricciones en cualquier lugar —en el trabajo, en casa, en organismos públicos o en la escuela— y redistribúyalo libremente.

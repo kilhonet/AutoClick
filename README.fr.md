@@ -142,15 +142,6 @@ Il n'y a pas de fenêtre de réglages à part. Les raccourcis, **Position** et *
 
 AutoClick ne se met **pas** à jour tout seul. Au lancement, il vérifie s'il existe une nouvelle version et affiche un avis ; cliquer sur **[Oui]** ouvre la page de téléchargement et ferme le programme. Les nouvelles versions sont publiées manuellement après vérification interne et annoncées sur la [page d'AutoClick](https://kilho.net/autoclick). Consultez l'[avis sur la politique de mise à jour](https://en.kilho.net/archives/notice/2940).
 
-**Historique des versions**
-
-| Version | Date | Modifications |
-|---|---|---|
-| 2.0.0 | 2026-10-02 | Réécrit en Rust pour plus de fiabilité, nouvelle option Utiliser les avis pour le démarrage, l'arrêt et la fin des répétitions, le relancer ramène la fenêtre ouverte au premier plan, saisie des raccourcis et affichage de la liste améliorés, prise en charge du mode sombre |
-| 1.5.5 | 2026-09-16 | Correction des longs temps d'attente appliqués trop courts dans certains anciens enregistrements, correction des plages d'intervalle personnalisées qui changeaient, avis quand un autre programme utilise le même raccourci, réactivité améliorée avec moins d'attente après un double clic, clics continus évités en cas de nombre de répétitions invalide |
-| 1.5.4 | 2026-08-13 | Précision accrue pour certaines coordonnées enregistrées, comportement inattendu évité avec des données d'enregistrement invalides, fichiers d'enregistrement unifiés au format `.lst`, meilleur affichage de la liste sur écrans haute résolution et mis à l'échelle |
-| 1.5.3 | 2026-07-11 | Stabilité améliorée avec des délais invalides, délais excessifs maintenus dans une plage sûre, réglage des délais plus fiable, espagnol ajouté |
-
 ## Licence
 
 AutoClick est un **gratuiciel** (freeware). Utilisez-le gratuitement et sans restriction partout — au travail, à la maison, dans les administrations ou à l'école — et redistribuez-le librement.
